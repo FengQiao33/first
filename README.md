@@ -39,6 +39,6 @@ npm run build
 - **Build Command**：`npm run build`
 - **Output Directory**：`dist`
 
-> 部署后得到一个可访问 URL，把它填到 `SUBMISSION.txt` 里提交即可。
+
 
 
