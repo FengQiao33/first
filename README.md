@@ -49,9 +49,3 @@ npm run build
 - 目录：`edge/`
 - 示例：`edge/hello.ts`
 
-## 参赛提交清单
-
-- **作品 URL**：部署到 ESA Pages 后填写
-- **Github 仓库**：公开仓库地址填写
-- **作品说明 TXT**：见 `SUBMISSION.txt`
-
