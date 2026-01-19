@@ -259,7 +259,7 @@ export function App() {
               输入一句话，生成热门风格海报并一键导出
             </h1>
             <p className="mt-2 text-white/70">
-              内置多风格模板（赛博/极简/霓虹/杂志风），适配 9:16 / 1:1 / 16:9，纯前端即可运行；可选接入边缘函数实现 AI 生成与缓存。
+              内置多风格模板（赛博/极简/霓虹/杂志风），适配 9:16 / 1:1 / 16:9，纯前端即可运行。
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -352,9 +352,6 @@ export function App() {
                   />
                 </div>
 
-                <div className="text-xs text-white/55">
-                  提示：如果你要体现“技术探索”，可以把文案生成改为调用 `edge/` 下的边缘接口（AI 转发 + 缓存/限流/存储）。
-                </div>
               </div>
             </div>
           </div>
@@ -383,14 +380,13 @@ export function App() {
               <div className="mt-4 flex flex-wrap items-center gap-2 text-xs text-white/55">
                 <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">纯前端：部署即用</span>
                 <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">支持 ESA Pages 边缘缓存</span>
-                <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">可扩展边缘函数/存储</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="mt-10 text-xs text-white/45">
-          <p>注意：导出 PNG 为本地生成，不上传图片；如你接入 AI 接口，请妥善管理 Key，并建议通过边缘函数转发与缓存。</p>
+          <p>注意：导出 PNG 为本地生成，不上传图片。</p>
         </div>
       </div>
     </div>

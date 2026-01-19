@@ -1,12 +1,12 @@
 作品访问URL（部署到ESA Pages后填写）：
-https://你的-esa-pages-域名.example
+https://edgeposter.10df6836.er.aliyun-esa.net
 
 Github仓库地址（公开仓库）：
-https://github.com/你的用户名/edgeposter
+https://github.com/FengQiao33/first
 
 作品说明：
 EdgePoster（边缘 AI 海报生成器）是一个部署即用的在线海报生成工具。用户输入一句宣传文案即可一键生成多套流行风格海报（9:16/1:1/16:9），支持导出PNG用于社交媒体传播。
 实用性：适用于运营宣传、课程活动、招聘内推、店铺促销等场景，零安装、打开即用。
 创意性：内置赛博/极简/霓虹/杂志风等模板与动态背景，生成效果更易传播。
-技术深度：前端采用Canvas导出与可配置模板引擎；提供边缘函数示例用于AI接口转发+缓存/限流/边缘存储读写，结合ESA Pages实现边缘加速、计算与保护。
+技术深度：前端采用Canvas导出与可配置模板引擎，结合ESA Pages实现边缘加速、计算与保护。
 
