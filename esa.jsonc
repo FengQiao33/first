@@ -1,0 +1,15 @@
+{
+  // ESA Pages 构建产物与边缘函数配置
+  // - assets.directory: 前端静态资源输出目录（Vite 默认 dist）
+  // - entry: 边缘函数入口（可选；先留空也可以只部署静态站点）
+  "name": "edgeposter",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  },
+  // 如需启用边缘函数，请把下面 entry 打开，并确保该入口文件符合 ESA Pages 的函数规范
+  // "entry": "./edge/hello.ts"
+}
+
